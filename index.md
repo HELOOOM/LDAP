@@ -63,3 +63,11 @@ We create a new user `ouhidaoui@medmac.me`. And add it to the domain.
 
 For the first time, we must change the password to log in.
 ![WhatsApp Image 2022-01-17 at 16 38 11](https://user-images.githubusercontent.com/53974876/149804679-71b0fad5-4bda-4af3-b1bf-795c54bae62b.jpeg)
+
+
+
+
+![Pasted Graphic 18](https://user-images.githubusercontent.com/56129562/149036941-a852cc63-0c76-487b-85ce-b0709634224e.png)
+
+
+
