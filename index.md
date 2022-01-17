@@ -88,3 +88,7 @@ For the first time, we must change the password to log in.
 
 ![149037294-369ebd29-5a19-43da-8a85-2286d8376164](https://user-images.githubusercontent.com/53974876/149832439-3ef50818-23f7-4cfc-8e88-aab7e70d5f4d.png)
 
+
+![You've been signed in with temporary](https://user-images.githubusercontent.com/56129562/149037303-12a4a745-fbd2-4964-b770-dcc1ad56a0b1.png)
+
+
