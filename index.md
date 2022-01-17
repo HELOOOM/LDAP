@@ -92,3 +92,14 @@ For the first time, we must change the password to log in.
 ![You've been signed in with temporary](https://user-images.githubusercontent.com/56129562/149037303-12a4a745-fbd2-4964-b770-dcc1ad56a0b1.png)
 
 
+
+# Part II: Active Directory Groups
+
+![WhatsApp Image 2022-01-17 at 20 56 59](https://user-images.githubusercontent.com/53974876/149832827-36e4d201-d952-45ef-a734-a2edfc1f0d01.jpeg)
+
+
+![WhatsApp Image 2022-01-17 at 19 20 30](https://user-images.githubusercontent.com/53974876/149832770-ab287cdf-1c2f-4dbb-ac83-cde7d229108b.jpeg)
+
+![WhatsApp Image 2022-01-17 at 20 56 57](https://user-images.githubusercontent.com/53974876/149832860-b018c0ea-86e4-4a89-89dd-d5776742020f.jpeg)
+
+
