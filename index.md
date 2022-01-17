@@ -103,3 +103,28 @@ For the first time, we must change the password to log in.
 ![WhatsApp Image 2022-01-17 at 20 56 57](https://user-images.githubusercontent.com/53974876/149832860-b018c0ea-86e4-4a89-89dd-d5776742020f.jpeg)
 
 
+# Part III: Group Policy Object
+
+
+
+![WhatsApp Image 2022-01-17 at 21 17 09](https://user-images.githubusercontent.com/53974876/149835136-1d982c4e-a8eb-43da-ab48-9dfc80e15ccc.jpeg)
+
+
+![WhatsApp Image 2022-01-17 at 21 45 10](https://user-images.githubusercontent.com/53974876/149835478-2a50f3e8-8cb6-40d4-94ba-e896d7501c13.jpeg)
+
+
+
+![Capture d’écran 2022-01-17 214713](https://user-images.githubusercontent.com/53974876/149835318-b26b6444-7a18-4ca2-ba4f-a6cb19d55f6a.png)
+
+
+
+![win](https://user-images.githubusercontent.com/56129562/149037875-b81ce129-5b5a-4d6e-a6f7-1ceecc302200.png)
+
+
+![WhatsApp Image 2022-01-17 at 21 20 52](https://user-images.githubusercontent.com/53974876/149835550-b325efee-adc4-457a-bc47-b3103864814d.jpeg)
+
+
+![wi](https://user-images.githubusercontent.com/56129562/149038024-7c51e574-4f24-40f5-a864-121c6962c9c1.png)
+
+
+
