@@ -77,3 +77,9 @@ For the first time, we must change the password to log in.
 
 
 
+![WhatsApp Image 2022-01-17 at 21 08 08](https://user-images.githubusercontent.com/53974876/149831687-62577463-edeb-421d-babf-1b65d89c86ea.jpeg)
+
+
+![WhatsApp Image 2022-01-17 at 20 57 15](https://user-images.githubusercontent.com/53974876/149831851-33d3c304-b9c0-449d-ae2f-90c9cbdc2fba.jpeg)
+
+
