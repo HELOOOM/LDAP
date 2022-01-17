@@ -59,7 +59,7 @@ We create a new user `ouhidaoui@medmac.me`. And add it to the domain.
 
 **Note**: In order to avoid any login problems, we need to explicitely allow the user to log in into his account. To do so, we need to add it to the `Allow log on locally` policy.
 
-![Allow log on locally Properties](https://user-images.githubusercontent.com/56129562/149036697-0ffcb40d-2266-4025-a87d-f4218e9c1a53.png)
+![WhatsApp Image 2022-01-17 at 20 58 18](https://user-images.githubusercontent.com/53974876/149830640-a2ae32f8-add4-4ef1-89da-a0472b757f1b.jpeg)
 
 For the first time, we must change the password to log in.
 ![WhatsApp Image 2022-01-17 at 16 38 11](https://user-images.githubusercontent.com/53974876/149804679-71b0fad5-4bda-4af3-b1bf-795c54bae62b.jpeg)
@@ -68,6 +68,12 @@ For the first time, we must change the password to log in.
 
 
 ![Pasted Graphic 18](https://user-images.githubusercontent.com/56129562/149036941-a852cc63-0c76-487b-85ce-b0709634224e.png)
+
+
+![WhatsApp Image 2022-01-17 at 19 20 06](https://user-images.githubusercontent.com/53974876/149830456-848fa18d-b181-4ef8-a92c-fe9627d724dd.jpeg)
+
+
+![WhatsApp Image 2022-01-17 at 21 01 35](https://user-images.githubusercontent.com/53974876/149830892-1c28de94-8b9c-4b20-9b10-2283029bde48.jpeg)
 
 
 
