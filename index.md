@@ -28,7 +28,7 @@ Active Directory lists items in a managed network such as user accounts, servers
 
 After the installation of AD, we need to configure it for the first time.
 
-First, we need to add a new forest , in which we are going to mention our domain `TADISSTUFF.loc`.
+First, we need to add a new forest , in which we are going to mention our domain `tadisstuff.loc`.
 
 ![WhatsApp Image 2022-01-17 at 16 38 53](https://user-images.githubusercontent.com/53974876/149802227-98a50e95-94d7-4f5e-861f-308688bce629.jpeg)
 
@@ -51,7 +51,7 @@ After the installation we restart the server.
 
 
 ## Adding a user to the domain
-We create a new user `baderben@TADISSTUFF.loc`. And add it to the domain.
+We create a new user `badrben@tadisstuff.loc`. And add it to the domain.
 
 ![WhatsApp Image 2022-01-17 at 16 38 54 (1)](https://user-images.githubusercontent.com/53974876/149804098-529d7aab-b598-4953-a7d5-b13f19bf59f3.jpeg)
 
