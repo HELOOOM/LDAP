@@ -64,6 +64,10 @@ We create a new user `ouhidaoui@medmac.me`. And add it to the domain.
 For the first time, we must change the password to log in.
 ![WhatsApp Image 2022-01-17 at 16 38 11](https://user-images.githubusercontent.com/53974876/149804679-71b0fad5-4bda-4af3-b1bf-795c54bae62b.jpeg)
 
+Roaming Profiles
+A profile is a folder that contains all the settings pertaining to a user’s working environment. By default, the profile is stored in the C:\Users directory. A roaming profile, on the other hand, is stored on a network instead on the local drive of the machine where you are logged. A Roaming profile is cached locally by default. The advantage of a roaming profile is that a user can log into any machine in the domain and have a consistent working environment.
+
+First, we need to create a Roaming folder and share it across the network.
 
 
 
@@ -76,15 +80,23 @@ For the first time, we must change the password to log in.
 ![WhatsApp Image 2022-01-17 at 21 01 35](https://user-images.githubusercontent.com/53974876/149830892-1c28de94-8b9c-4b20-9b10-2283029bde48.jpeg)
 
 
+Final Results:
+
 
 ![WhatsApp Image 2022-01-17 at 21 08 08](https://user-images.githubusercontent.com/53974876/149831687-62577463-edeb-421d-babf-1b65d89c86ea.jpeg)
 
+We can map the folders as a network drive
 
 ![WhatsApp Image 2022-01-17 at 20 57 15](https://user-images.githubusercontent.com/53974876/149831851-33d3c304-b9c0-449d-ae2f-90c9cbdc2fba.jpeg)
 
+Mandatory profiles
+A mandatory user profile is a roaming user profile that has been pre-configured by an administrator to specify settings for users. ... Configuration changes made during a user's session that are normally saved to a roaming user profile are not saved when a mandatory user profile is assigned.
 
 ![WhatsApp Image 2022-01-17 at 21 14 30](https://user-images.githubusercontent.com/53974876/149832264-8d8c03d6-5fe0-49dc-937a-fbf28b306fe9.jpeg)
 
+We create a new mandatory user, which is a basic user.
+
+After the first login, we get the following message;
 
 ![149037294-369ebd29-5a19-43da-8a85-2286d8376164](https://user-images.githubusercontent.com/53974876/149832439-3ef50818-23f7-4cfc-8e88-aab7e70d5f4d.png)
 
@@ -95,34 +107,54 @@ For the first time, we must change the password to log in.
 
 # Part II: Active Directory Groups
 
+Groups in Active Directory allow to assemble any type of object (user account, computer account, group) into a single entity in order to simplify administrative work in an Active Directory forest. In addition, the groups are characterized by their scope, which will limit their application in the forest. But also by their type, they can be assigned security authorizations if their type allows it.
+1. We Create three organizational units that will allow you to manage and organize users and user groups. We name them respectively `Casablanca` , `Fez` and `Rabat`.
+
 ![WhatsApp Image 2022-01-17 at 20 56 59](https://user-images.githubusercontent.com/53974876/149832827-36e4d201-d952-45ef-a734-a2edfc1f0d01.jpeg)
 
 
 ![WhatsApp Image 2022-01-17 at 19 20 30](https://user-images.githubusercontent.com/53974876/149832770-ab287cdf-1c2f-4dbb-ac83-cde7d229108b.jpeg)
+
+We create 3 new users for each organizational unit. The result will look like this.
 
 ![WhatsApp Image 2022-01-17 at 20 56 57](https://user-images.githubusercontent.com/53974876/149832860-b018c0ea-86e4-4a89-89dd-d5776742020f.jpeg)
 
 
 # Part III: Group Policy Object
 
+Group Policies (or GPO for Group Policy Object) are centralized management functions of the Microsoft Windows family. They allow the management of computers and users in an Active Directory environment. Group Policies are part of the IntelliMirror family of technologies, which include managing disconnected computers, managing roaming users or managing folder redirection, and managing files in offline mode.
+
+1. Apply a security policy for the user `Sales-dir-casablanca`, which will prevent the user from having the “control panel configuration” in the start menu.
+
 
 
 ![WhatsApp Image 2022-01-17 at 21 17 09](https://user-images.githubusercontent.com/53974876/149835136-1d982c4e-a8eb-43da-ab48-9dfc80e15ccc.jpeg)
 
+First we need to create a new GPO (Group Policy Object)
+
+Then we need to add the user to this GPO:
 
 ![WhatsApp Image 2022-01-17 at 21 45 10](https://user-images.githubusercontent.com/53974876/149835478-2a50f3e8-8cb6-40d4-94ba-e896d7501c13.jpeg)
 
 
 
+Now, let's block the access to control panel, On the policy editor window, the setting that we’re looking for is under User Configuration > Adminsitrative Templates > Control Panel , find one setting named `Prohibit access to Control Panel and PC settings`.
+
+
+We make sure it is set to `Enabled`.
+
 ![Capture d’écran 2022-01-17 214713](https://user-images.githubusercontent.com/53974876/149835318-b26b6444-7a18-4ca2-ba4f-a6cb19d55f6a.png)
 
+Now we need to apply the settings by the following command `gpupdate /force`
 
 
 ![win](https://user-images.githubusercontent.com/56129562/149037875-b81ce129-5b5a-4d6e-a6f7-1ceecc302200.png)
 
+As a last step, we need to link the user to the GPO:
 
 ![WhatsApp Image 2022-01-17 at 21 20 52](https://user-images.githubusercontent.com/53974876/149835550-b325efee-adc4-457a-bc47-b3103864814d.jpeg)
 
+Results When trying to access control panel, or Windows Settings, we get the following error.
 
 ![wi](https://user-images.githubusercontent.com/56129562/149038024-7c51e574-4f24-40f5-a864-121c6962c9c1.png)
 
